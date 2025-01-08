@@ -44,7 +44,7 @@ conda install -c conda-forge rdkit
 
 1. **Clone the Repository**:
    ```bash
-   git clone https://github.com/<your-username>/QSAR-EGFR-Analysis.git
+   git clone https://github.com/argha1992/QSAR-EGFR-Analysis.git
    cd QSAR-EGFR-Analysis
    ```
 
