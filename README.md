@@ -6,7 +6,7 @@ This repository contains a Jupyter Notebook for performing QSAR (Quantitative St
 ## Features
 
 1. **Database Processing**:
-   - Convert dataset ('data1.txt' to 'data1.csv')
+   - Convert dataset (`data1.txt` to `data1.csv`)
    - Loads a dataset (`data1.csv`) containing molecule information, including SMILES strings and IC50 values.
    - Filters active molecules with IC50 values between 0 and 10 nM.
 
