@@ -6,10 +6,11 @@ This repository contains a Jupyter Notebook for performing QSAR (Quantitative St
 ## Features
 
 1. **Database Processing**:
+   - Convert dataset ('data1.txt' to 'data1.csv')
    - Loads a dataset (`data1.csv`) containing molecule information, including SMILES strings and IC50 values.
    - Filters active molecules with IC50 values between 0 and 10 nM.
 
-2. **Descriptor Calculation**:
+3. **Descriptor Calculation**:
    - Computes physicochemical descriptors for active molecules:
      - Molecular Weight (MW)
      - LogP
@@ -17,14 +18,14 @@ This repository contains a Jupyter Notebook for performing QSAR (Quantitative St
      - Number of Hydrogen Bond Donors (HBD)
      - Number of Rotatable Bonds
 
-3. **Lipinski's Rule of Five Compliance**:
+4. **Lipinski's Rule of Five Compliance**:
    - Filters molecules that satisfy Lipinski's Rule of Five:
      - MW ≤ 500
      - LogP ≤ 5
      - HBA ≤ 10
      - HBD ≤ 5
 
-4. **Output Generation**:
+5. **Output Generation**:
    - Exports results to CSV files:
      - `active_molecules_descriptors.csv`: Physicochemical descriptors for active molecules.
      - `lipinski_accepted_molecules.csv`: Molecules passing Lipinski's Rule.
